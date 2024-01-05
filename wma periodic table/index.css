@@ -1,0 +1,95 @@
+*{
+    padding: none;
+    margin: none;
+}
+body{
+    text-align: center;
+    align-items: center;
+}
+.page{
+    max-height: 100vh;
+}
+h1{
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+    width: 100%;
+    overflow: hidden;
+}
+h1:hover{
+    background-color: red;
+    color: #fff;
+    overflow: hidden;
+    scale: 3;
+}
+
+.table{
+
+   margin-top: 6vh;
+    text-align: center;
+  
+}
+.upperTable{
+   width: 60%;
+   margin: auto auto;
+    text-align: center;
+    margin-left: 18%;
+
+}
+
+th{
+  width: 2.1vw;
+  padding: 0.3vw;
+  line-height: 0;
+transition: 0.3s;
+border: 1px #fff solid;
+cursor: pointer;
+}
+th:hover{
+    background-color: #fff;
+  
+}
+.red{
+    background-color: rgb(255, 171, 143);
+}
+.pink{
+    background-color: #FFCDD4;
+}
+.lightYellow{
+    background-color: #FFE0AF;
+}
+.blue{
+    background-color: #D4C4EA;
+}
+
+.seeGreen{
+    background-color: #E8ECA0;
+}
+.darkYellow{
+    background-color: #FFCC80;
+}
+.green{
+    background-color: #A3D7A8;
+}
+.grey{
+    background-color: #dadada;
+}
+.light-blue{
+    background-color: #B4E3FD;
+}
+.lowerTable{
+    opacity: 1;
+    width: 46.2%;
+    margin: 4vh auto auto auto;
+     
+}
+@media screen and (max-width: 992px) {
+    th {
+        width: 1vw;
+        padding: 0.8vw;
+        line-height: 0;
+      transition: 0.3s;
+      border: 1px #fff solid;
+      font-size: 1vmax;
+    }
+  }
